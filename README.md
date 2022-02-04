@@ -26,3 +26,4 @@ The Python program has better output and some error checking, but besides that t
 - Click "New Access Token"
 - Enter "API Access" or something similar for Purpose
 - Click "Generate Token", then copy the string that is returned
+- Remember to save the token somewhere in case you need it again
