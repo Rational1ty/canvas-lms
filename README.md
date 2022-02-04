@@ -4,7 +4,7 @@ A way to easily clear unread notifications using the Canvas LMS API
 
 ## Usage
 
-After downloading this repo, run the program with `python`:
+After downloading this repo (go to Code > Download Zip), run the program with `python`:
 ```sh
 python mark_as_read.py <auth_token>
 ```
@@ -26,3 +26,4 @@ The Python program has better output and some error checking, but besides that t
 - Click "New Access Token"
 - Enter "API Access" or something similar for Purpose
 - Click "Generate Token", then copy the string that is returned
+- Remember to save the token somewhere in case you need it again
