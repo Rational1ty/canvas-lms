@@ -1,14 +1,5 @@
 """
 Usage: python mark_as_read.py <auth_token>
-
-To get an auth token for API access:
- - Log in to Canvas (https://canvas.tamu.edu)
- - Click on Account > Settings
- - Scroll down to "Approved Integrations"
- - Click "New Access Token"
- - Enter "API Access" or something similar for Purpose
- - Click "Generate Token", then copy the string that is returned
- - Remember to save the token somewhere in case you need it again
 """
 
 import sys
