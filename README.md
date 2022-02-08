@@ -6,13 +6,13 @@ A way to easily clear unread notifications using the Canvas LMS API
 
 After downloading this repo (go to Code > Download Zip), run the program with `python`:
 ```sh
-python mark_as_read.py <auth_token>
+$ python mark_as_read.py <auth_token>
 ```
 
 You can also just do it yourself using `curl` (no need to download):
 
 ```sh
-curl -X POST -H "Authorization: Bearer <auth_token>" \
+$ curl -X POST -H "Authorization: Bearer <auth_token>" \
 https://canvas.tamu.edu/api/v1/conversations/mark_all_as_read
 ```
 
