@@ -1,10 +1,11 @@
 # Canvas - Mark All Messages as Read
 
-A way to easily clear unread notifications using the Canvas LMS API
+A tool for interfacing with the Canvas LMS API
 
 ## Usage
 
 After downloading this repo (go to Code > Download Zip), run the program with `python`:
+
 ```sh
 $ python mark_as_read.py <auth_token>
 ```
